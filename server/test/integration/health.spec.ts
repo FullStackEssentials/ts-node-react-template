@@ -2,7 +2,7 @@ import request from "supertest";
 import HttpStatus from "http-status";
 import { createServer } from "../../src/server";
 
-describe("signup", () => {
+describe("health", () => {
   const server = createServer().listen(80);
 
   afterAll(async () => {
